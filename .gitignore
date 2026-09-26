@@ -53,4 +53,5 @@ id_ed25519*
 id_rsa*
 *.key
 *.pem
+.ssh
 
