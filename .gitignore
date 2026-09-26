@@ -1,0 +1,49 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (keep directory via .gitkeep)
+data/*.csv
+data/*.tsv
+data/*.xlsx
+data/*.parquet
+data/*.json
+!data/.gitkeep
+
+# Machine Learning Models & Serialized Artifacts
+models/*.pkl
+models/*.pickle
+models/*.joblib
+models/*.h5
+models/*.onnx
+models/*.png
+!models/.gitkeep
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit Local Runtime
+.streamlit/secrets.toml
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
